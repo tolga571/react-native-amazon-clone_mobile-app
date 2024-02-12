@@ -18,6 +18,7 @@ import ConfirmationScreen from "../screens/ConfirmationScreen";
 import OrderScreen from "../screens/OrderScreen";
 
 const StackNavigator = () => {
+  // navigation options
   const Stack = createNativeStackNavigator();
   const Tab = createBottomTabNavigator();
   function BottomTabs() {
