@@ -44,7 +44,6 @@ const sendVerificationEmail = async (email, verificationToken) => {
     port: 587,
     secure: false, // upgrade later with STARTTLS
     auth: {
-      // Bu bilgiler özeldir git'e atarken bu alanı sil ve gerekli açıklamayı bırak
       user: "your_email@gmail.com",
       pass: "ghuk dzbt nuao abrz",
     },
